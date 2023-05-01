@@ -18,7 +18,7 @@ const ForgotPassword = ({ history }) => {
     setLoading(true);
 
     const config = {
-      url: "https://bananauyu.onrender.com/login",
+      url: "https://bananauyu.me/login",
       handleCodeInApp: true,
     };
 
