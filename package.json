@@ -2,8 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://bananauyu.onrender.com",
-  "homepage": "https://bananauyu.onrender.com",
+  "homepage": "https://vrncdmtn20.github.io/bananauyu.github.io/",
   "mime": {
     "text/css": [
       "css"
@@ -46,6 +45,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -66,6 +67,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "http-proxy-middleware": "^2.0.6",
     "mime": "^3.0.0"
   }
