@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const createOrUpdateUser = async (authtoken) => {
   return await axios.post(
-    `https://bananauyu-api.onrender.com/create-or-update-user`,
+    `https://bananauyu-api.onrender.com/api/create-or-update-user`,
     {},
     {
       headers: {

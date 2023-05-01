@@ -3,12 +3,12 @@ import "firebase/compat/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBGSS3vXS7FIiLg7fxWuUmmRMTT2DXpwWs",
-  authDomain: "uyubananamango.firebaseapp.com",
-  projectId: "uyubananamango",
-  storageBucket: "uyubananamango.appspot.com",
-  messagingSenderId: "912856437828",
-  appId: "1:912856437828:web:61e2f89e944144659b1811",
+  apiKey: "AIzaSyDxrapIOmeE8DBRM4xOw-AFOkzRKk26jjU",
+  authDomain: "bananauyu.firebaseapp.com",
+  projectId: "bananauyu",
+  storageBucket: "bananauyu.appspot.com",
+  messagingSenderId: "122939620277",
+  appId: "1:122939620277:web:3f2a0a20ca96b4127d37fc",
 };
 
 // Initialize Firebase
