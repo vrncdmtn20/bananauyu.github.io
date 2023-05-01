@@ -18,7 +18,7 @@ const ForgotPassword = ({ history }) => {
     setLoading(true);
 
     const config = {
-      url: process.env.REACT_APP_FORGOT_PASSWORD_REDIRECT,
+      url: "https://bananauyu.web.app/login",
       handleCodeInApp: true,
     };
 
